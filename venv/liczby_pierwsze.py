@@ -1,4 +1,5 @@
 from datetime import datetime
+import math
 
 start = datetime.now()
 current_time = start.strftime("%H:%M:%S")
@@ -7,9 +8,9 @@ pierwsze = [2, 3]
 
 liczba = 5
 
-while liczba < 100000:
+while liczba < 1000000:
 
-    polowa = liczba / 2
+    polowa = math.sqrt(liczba)
 
     sprawdzenie = 1
     for pierwsza in pierwsze:
