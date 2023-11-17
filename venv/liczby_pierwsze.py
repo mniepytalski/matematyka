@@ -10,12 +10,12 @@ liczba = 5
 
 while liczba < 1000000:
 
-    polowa = math.sqrt(liczba)
+    maxTest = math.sqrt(liczba)
 
     sprawdzenie = 1
     for pierwsza in pierwsze:
 
-        if pierwsza > polowa:
+        if pierwsza > maxTest:
             break
 
         reszta = liczba % pierwsza
