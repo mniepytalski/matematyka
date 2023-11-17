@@ -8,7 +8,7 @@ pierwsze = [2, 3]
 
 liczba = 5
 
-while liczba < 1000000:
+while liczba < 50000000:
 
     maxTest = math.sqrt(liczba)
 
